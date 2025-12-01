@@ -1,5 +1,26 @@
-@import "bootstrap/dist/css/bootstrap.min.css";
+ body {
+     font-family: 'Comic Sans MS', cursive, sans-serif;
+     background-color: #fdfdfc;
+     text-align: center;
+     padding-top: 100px;
+ }
 
-body{
-    background: white;
-}
+ #excuse {
+     font-size: 28px;
+     color: #000000;
+     margin-bottom: 30px;
+ }
+
+ button {
+     padding: 12px 24px;
+     font-size: 18px;
+     background-color: #28e1f1;
+     border: none;
+     border-radius: 8px;
+     cursor: pointer;
+     color: white;
+ }
+
+ button:hover {
+     background-color: #0d4cc1;
+     }
